@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Share Tech Mono;
+    background-color:rgba(197, 195, 195, 0.438)
+}
+
+@media screen and (max-width:680px){
+
+ nav .onglet{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+    
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #0000007a;
+ }
+ nav h1{
+    color: lightslategray;
+    font-family: Literata;
+    font-size: 55px;
+ }
+ nav .onglet{
+     margin-top: 5px;
+     margin-left: 390px;
+
+  }
+ nav .onglet a{
+     text-decoration: none;
+     color: #000;
+     margin-right: 10px;
+     border-bottom: 1px solid #000;
+     padding-bottom: 5px;
+     font-size: 27px;
+    
+ }
+ header{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background: url('https://i.ibb.co/4d8CYtM/background-header.jpg'); ;
+     background-size: cover;
+     color: #fff ;
+     padding:70px;
+ }
+ header h1{
+    font-family: Literata;
+    font-size: 40px;
+}
+ header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+ header button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color:#000;
+    border:none;
+    margin-bottom: 30px;
+    outline:none;
+    font-size: 20px;
+    font-family: Literata;
+    cursor: pointer;
+}
+ .main{
+        margin-top: 19px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+ .main .content .card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+        font-size: 22px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ .main .content .card .left{
+        flex: 0 0 30%;
+        padding: 29px;
+ }
+ .main .content .card.right{
+        flex: 0 0 70%;
+ }
+ .main .content .card .right img{
+        height: 400px;
+        width: 600px;
+        margin-top: 50px;
+ }
+ footer{
+        margin-top: 89px;
+        border-top: 5px solid #6f6f6f;
+        background-color: rgb(0, 0, 0);
+        color: #fff;
+        padding: 30px 200px;;
+ }
+ footer h1{
+        font-family: 'Playfair Display', serif;
+        border-bottom: 1px solid white;
+        width: 20%;
+        padding-bottom: 5px;
+ }
+ footer .services{
+        margin-top: -10px;
+        display:flex;
+        flex-wrap:wrap;
+ }
+ footer .services .service{
+        margin-right: 20px;
+    }
+ footer .services .service p{
+        max-width: 265px;
+ }
+ footer #contact{
+        color: rgb(181, 181, 181);
+ }
